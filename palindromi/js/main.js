@@ -4,7 +4,7 @@ var parolaUtente = prompt('scrivi una parola'); // chiedo la parola all utente
 
 
 while (!isNaN(parolaUtente)) {  // finchè la parola non è un non numero
-    var parolaUtente = prompt('non hai inserito una parola') // controllo che l utente abbia inserito una parola
+    var parolaUtente = prompt('non hai inserito una parola') // mostro il messagio d errore
 }
 
 var parolaUtenteLowercase = parolaUtente.toLowerCase(); // disattivo il case sensitive
